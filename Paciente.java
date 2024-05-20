@@ -43,25 +43,4 @@ public class Paciente {
         return idade;
     }
     
-    public void setNome(String nome){
-        nome = this.nome;
-    }
-    
-    public void setTelefone(String telefone){
-        telefone = this.telefone;
-    }
-    
-    public void setSintomas(String sintomas){
-        sintomas = this.sintomas;
-    }
-    
-    public void setCpf(String cpf){
-        cpf = this.cpf;
-    }
-    
-    public void setIdade(int idade){
-        idade = this.idade;
-    }
-    
-    
 }
