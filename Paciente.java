@@ -10,12 +10,12 @@ package Projeto.Faculdade;
  */
 public class Paciente {
     private String nome;
-    private int telefone;
+    private String telefone;
     private String sintomas;
     private String cpf;
     private int idade;
     
-    public Paciente(String nome, int telefone, String sintomas, String cpf, int idade){
+    public Paciente(String nome, String telefone, String sintomas, String cpf, int idade){
         this.nome = nome;
         this.telefone = telefone;
         this.sintomas = sintomas;
@@ -27,7 +27,7 @@ public class Paciente {
         return nome;
     }
     
-    public int getTelefone(){
+    public String getTelefone(){
         return telefone;
     }
     
@@ -47,7 +47,7 @@ public class Paciente {
         nome = this.nome;
     }
     
-    public void setTelefone(int telefone){
+    public void setTelefone(String telefone){
         telefone = this.telefone;
     }
     
